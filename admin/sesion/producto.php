@@ -1,4 +1,8 @@
+<?php ob_start(); ?>
+
 <?php include("../vista/cabecera.php"); ?>
+
+
 <?php 
 $codigo=(isset($_POST['codigo']))?$_POST['codigo']:"";
 $nombre=(isset($_POST['nombre']))?$_POST['nombre']:"";
